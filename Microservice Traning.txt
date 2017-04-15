@@ -62,8 +62,8 @@ open in nano editor: for setting configuration:
 nano /etc/apt/apt-conf
 
 
-Acquire::http::proxy "http://corp\\ddibyana:Db%40cg12345@inpunwbs02-wcg.corp.capgemini.com:8080";
-Acquire::https::proxy "http://corp\\ddibyana:Db%40cg12345@inpunwbs02-wcg.corp.capgemini.com:8080";
+Acquire::http::proxy "http://corp\\username:password@inpunwbs02-wcg.corp.capgemini.com:8080";
+Acquire::https::proxy "http://corp\\username:password@inpunwbs02-wcg.corp.capgemini.com:8080";
 
 -------------------------------------------------
 Spring Boot: takes care of configuration of app auto with @EnableAutoConfiguration
